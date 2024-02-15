@@ -1,19 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e6f7ff; /* Light blue background */
+    background-color: #282c35; /* Dark background color */
+    color: #fff; /* Light text color */
 }
 
 .quiz-container {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #373c49; /* Slightly lighter background color */
+    padding: 40px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
 }
 
 form {
@@ -22,31 +24,36 @@ form {
 
 label {
     display: block;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 2px solid #4caf50; /* Green border color */
+    border-radius: 6px;
+    color: #4caf50; /* Green text color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
 }
 
 label:hover {
-    background-color: #f0f0f0;
+    background-color: #4caf50;
+    color: #fff;
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #3498db; /* Blue button color */
     color: #fff;
-    padding: 10px 15px;
+    padding: 15px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #2980b9; /* Slightly darker blue on hover */
 }
 
 #result {
     margin-top: 20px;
+    font-size: 18px;
+    color: #3498db; /* Blue text color */
 }
