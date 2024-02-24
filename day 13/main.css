@@ -416,7 +416,7 @@ Hero
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(211, 145, 39, 0.4);
   border-radius: var(--borderRadius);
 }
 .hero-text {
